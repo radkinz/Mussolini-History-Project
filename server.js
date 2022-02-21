@@ -35,17 +35,17 @@ app.get('/', (req, res) => {
 
 //info objs
 var titles = {
-  12: "1936: Mussolini sends aid to General Franco of Spain",
-  "11&10": "1940: Italy declares war on Britain and France at The Piazza Venezia in Rome",
-  9: "1902: Mussolini in Switzerland",
-  8: "1939: The Pact of Steel is signed",
-  7: "1945: Mussolin captured and executed at Lake Como",
-  6: "1912: Mussolini returns to Italy and becomes editor of the newspaper Avanti!",
-  6.1: "1919: Mussolini founded Italy's fascist movement.",
-  6.2: "1922: March on Rome",
-  6.3: "1925: Mussolini asserts himself as dictator at The Piazza Venezia in Rome",
-  6.4: "1929: Lateran Pact signed in The Lateran Palace in Rome",
-  5: "1883: Mussolini was born in Predappio, Italy",
+  12: "1936: Mussolini helps the General Franco of Spain",
+  "11&10": "1940: Italy declares war on Britain and France",
+  9: "1902: Mussolini moves to Switzerland",
+  8: "1939: Mussolini signs the Pact of Steel",
+  7: "1945: Mussolini is captured and executed at Lake Como",
+  6: "1912: Mussolini joins Avanti!",
+  6.1: "1919: Mussolini founded Italy's fascist movement",
+  6.2: "1922: Mussolini leads the March on Rome",
+  6.3: "1925: Mussolini asserts himself as dictator",
+  6.4: "1929: Mussolini signs the Lateran Pact",
+  5: "1883: Mussolini is born in Predappio, Italy",
   4: "1909: Mussolini moves to Austria-Hungary",
   3: "1935: Italy invades Abyssiania"
 }
