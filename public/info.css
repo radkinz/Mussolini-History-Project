@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+    line-height: 2;
+    width: 80%;
+    margin: auto;
+}
