@@ -50,6 +50,22 @@ var titles = {
   3: "1935: Italy invades Abyssiania"
 }
 
+var imgsrc = {
+  12: "franco-mussolini.jpg",
+  "11&10": "Italy-declares-war.jpg",
+  9: "Benitto_Mussolini_mugshot_1903.jpg",
+  8: "pact_of_steel.jpg",
+  7: "mussolini_graveyard.jpg",
+  6: "avanti.jpg",
+  6.1: "blackshirts.jpeg",
+  6.2: "march_on_rome.jpg",
+  6.3: "dictator.jpg",
+  6.4: "lateran_treaty.jpg",
+  5: "Mussolinis-birthplace.jpg",
+  4: "tento.jpg",
+  3: "Italians-invade-Ethiopia.jpg"
+}
+
 var information = {
   12: "In 1936, both Mussolini and Hitler supported the Nationalists in the Spanish Civil War. Mussolini helped the Nationalist cause because they wanted to continue to show power and influence across Europe. Additionally, both Mussolini and Hitler were anti-communist, so they wanted to prevent a commuist control in Spain. Mussolini sent over 50,000 troops to the leader of the Nationalist forces: General Francisco Franco.",
   "11&10": "On September 3, 1939, Britain and France declared war on Germany, due to Hitler’s invasion into Poland. Hitler quickly took Holland and Belgium, and then persuaded Mussolini to believe that Germany would win the war. Mussolini, who cannot deny an opportunity to gain power, agreed to join the war and made it official by declaring war on France and Great Britain on June 10, 1940.",
@@ -62,7 +78,7 @@ var information = {
   6.3: "Mussolini did not begin as a dictator, for the first few years, he worked within the parliament to gain power. Nevertheless, the Fascists felt that Mussolini was moving too slowly and it was time for a change. In late 1924, assassins tied with Mussolini killed socialist leader Giacomo Matteotti, who was the leader of opposition against Mussolini’s legislation in parliament. A few days later in 1925, Mussolini stood in front of parliament and took sole responsibility for Matteotii’s assisnation. Thus, setting a precedent for what could happen to people if they opposed Mussolini. He then assumed dictatorship, and nobody stood in his way.",
   6.4: "In 1929, Mussolini signed the Lateran Treaty (the Lateran pact of 1929), which recognized the sovereignty of Vatican City as an independent state. This treaty gave more power to the Church, as the Pope was recognized as the leader of the state. Today the impacts of the Lateran Pact still shine, for it was this treaty that helped the Church acquire international influence. It is the reason why today the pope can travel around the world and address diplomatic delegations.",
   5: "Mussolini was born into a small, poor family in Predappio, Italy. His father was a socialist, and his mother a devout Catholic. Nevertheless his father despised religion, especially the Roman Catholic Church. Mussolini and his father were especially close, and his father served a major role in influencing his political beliefs. \n From a young age, Mussolini was fond of violence. He was constantly inciting fights at school, and was even expelled from his first boarding school for stabbing a classmate.",
-  4: "In Austria-Hungary, Mussolini founded a socialisst newspaper La Lotta di Classe. His own paper was extremely successful, but soon he was arrested for using his papers to incite violence. He spent six months in jail and then deported back to Italy.",
+  4: "In Austria-Hungary, Mussolini edited a socialist newspaper. His writing was extremely successful, but soon he was arrested for using his papers to incite violence. He spent six months in jail and then deported back to Italy.",
   3: "In 1935, Italy invaded Abyssiania, now Ethiopia, instigating the Second Italo-Ethiopian War. Mussolini used a border incident as an excuse to intervene, although in reality he wanted to begin building his Italian Empire and make the Mediterranean Sea his Italian Lake. The war marked a victory for Mussolini, and his military success helped overshadow economic issues and give him more support and power. Additionally, the war demonstrates the ineffectiveness of the League of Nations, who failed to impose economic sanctions on Italy as punishment for the invasion. Lastly, the war empowered many African nationalist movements that would emerge later on."
 }
 
@@ -85,7 +101,7 @@ app.post('/turnledon', (req, res) => {
     var led = new Led(parseInt(req.body.submit))
     led.on()
   }
-  res.render('info.html', {Info: {Title: titles[req.body.submit], info: information[req.body.submit]}})
+  res.render('info.html', {Info: {Title: titles[req.body.submit], info: information[req.body.submit], img: imgsrc[req.body.submit]}})
 })
 
 app.listen(3000, () => {
