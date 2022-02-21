@@ -17,3 +17,11 @@ div {
     width: 80%;
     margin: auto;
 }
+
+#imagecontainer {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
