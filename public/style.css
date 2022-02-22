@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:900");
 * {
   box-sizing: border-box;
 }
@@ -9,8 +10,14 @@ body {
 }
 
 h1 {
-  text-align: center;
-}
+    color: rgb(186, 248, 186);
+    font-family: "Kanit";
+    font-size: 60px;
+    line-height: 1em;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 1px 0 rgb(158, 190, 158), 0 2px 0 rgb(151, 216, 151), 0 3px 0 rgb(133, 201, 133), 0 4px 0 rgb(106, 170, 106), 0 5px 0 rgb(97, 170, 97), 0 6px 0 rgb(99, 158, 99), 0 7px 0 rgb(109, 189, 109), 0 8px 0 rgb(85, 163, 85), 0 0 5px rgb(85, 163, 85, 0.5), 0 -1px 3px rgb(85, 163, 85, 0.3), 0 9px 9px rgb(85, 163, 85, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3), 0 15px 15px rgb(85, 163, 85, 0.3);
+  }
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
