@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap');
+
 /* Set a background color */
 body {
   background-color: #ffffff;
@@ -9,8 +11,14 @@ body {
 }
 
 h1 {
-  text-align: center;
-}
+    text-align: center;
+    font-family: "Baloo Tamma 2", cursive;
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 0px #21f360, 3px 3px 0px #b86363, 6px 6px 0px #39be61;
+  }
 
 div {
     line-height: 2;
@@ -24,4 +32,5 @@ div {
 
 img {
     width: 50%;
+    max-width: 300px;
 }
