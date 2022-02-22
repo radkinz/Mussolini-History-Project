@@ -10,3 +10,7 @@ The server code can trigger the Arduino to tell the LED pins to turn on/off usin
 ![IMG-3160](https://user-images.githubusercontent.com/81705278/155071893-70eb1612-7ca8-4051-8888-0d17d99498c0.jpg)
 ![IMG-3161](https://user-images.githubusercontent.com/81705278/155071898-99102579-93c2-44aa-819c-3a72c71a3660.jpg)
 
+
+
+https://user-images.githubusercontent.com/81705278/155072602-91c0f003-fed6-44af-b2ae-7b23c69c4803.mp4
+
