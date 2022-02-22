@@ -1,4 +1,4 @@
-# Mussolini-History-Project
+# Mussolini History Project
 
 A project for my European History class. Users can click buttons on a timeline about Mussolini's life and get information about each event.
 An LED pin also lights up on a map that corresponds with the location of each event. The web application was made using Node.js, and the hardware was built with an Arduino.
