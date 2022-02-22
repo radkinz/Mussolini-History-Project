@@ -91,13 +91,11 @@ app.post('/turnledon', (req, res) => {
 
   //check if need to light both brit and france
   if (req.body.submit == "11&10") {
-    console.log(req.body.submit)
     var led1 = new Led(11)
     var led2 = new Led(10)
     led1.on()
     led2.on()
   } else {
-    console.log(req.body.submit)
     var led = new Led(parseInt(req.body.submit))
     led.on()
   }
